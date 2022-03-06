@@ -1,0 +1,765 @@
+2022-03-06 10:57:10,520 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2022-03-06 10:57:10,556 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.4.3/libexec/bin/user.properties
+2022-03-06 10:57:10,557 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.4.3/libexec/bin/system.properties
+2022-03-06 10:57:10,563 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-03-06 10:57:10,563 INFO o.a.j.JMeter: Version 5.4.3
+2022-03-06 10:57:10,563 INFO o.a.j.JMeter: java.version=17.0.2
+2022-03-06 10:57:10,563 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-03-06 10:57:10,563 INFO o.a.j.JMeter: os.name=Mac OS X
+2022-03-06 10:57:10,563 INFO o.a.j.JMeter: os.arch=x86_64
+2022-03-06 10:57:10,563 INFO o.a.j.JMeter: os.version=11.5.2
+2022-03-06 10:57:10,564 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-03-06 10:57:10,564 INFO o.a.j.JMeter: java.awt.headless=null
+2022-03-06 10:57:10,564 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-03-06 10:57:10,564 INFO o.a.j.JMeter: Available Processors =8
+2022-03-06 10:57:10,573 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-03-06 10:57:10,573 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2022-03-06 10:57:10,573 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4.3/libexec
+2022-03-06 10:57:10,573 INFO o.a.j.JMeter: user.dir  =/Users/xmc/github/concurrency
+2022-03-06 10:57:10,574 INFO o.a.j.JMeter: PWD       =/Users/xmc/github/concurrency
+2022-03-06 10:57:10,576 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: xmc000.local FullName: localhost
+2022-03-06 10:57:10,949 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2022-03-06 10:57:11,993 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-03-06 10:57:13,456 INFO o.j.r.JARSourceHTTP: Using proxy 127.0.0.1:7890
+2022-03-06 10:57:13,463 INFO o.j.r.JARSourceHTTP: Using proxy 127.0.0.1:7890
+2022-03-06 10:57:13,516 INFO o.j.r.JARSourceHTTP: Found cached repo
+2022-03-06 10:57:13,653 INFO o.j.r.JARSourceHTTP: Using proxy 127.0.0.1:7890
+2022-03-06 10:57:13,653 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.7, jmeter-core=5.4.3, jmeter-ftp=5.4.3, jmeter-http=5.4.3, jmeter-jdbc=5.4.3, jmeter-jms=5.4.3, jmeter-junit=5.4.3, jmeter-java=5.4.3, jmeter-ldap=5.4.3, jmeter-mail=5.4.3, jmeter-mongodb=5.4.3, jmeter-native=5.4.3, jmeter-tcp=5.4.3, jmeter-components=5.4.3]
+2022-03-06 11:02:13,155 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-06 11:02:13,156 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-06 11:02:13,156 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-06 11:02:13,157 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-06 11:02:13,157 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-03-06 11:02:13,157 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-03-06 11:04:23,307 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-03-06 11:04:23,308 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-03-06 11:04:23,308 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-03-06 11:04:23,308 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-03-06 11:04:23,459 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-03-06 11:04:43,236 ERROR o.a.j.JMeter: Uncaught exception in thread Thread[AWT-EventQueue-0,6,main]
+java.lang.IllegalAccessError: class com.github.weisj.darklaf.ui.filechooser.DarkFilePaneUIBridge$DetailsTableModel (in unnamed module @0x341b80b2) cannot access class sun.awt.shell.ShellFolder (in module java.desktop) because module java.desktop does not export sun.awt.shell to unnamed module @0x341b80b2
+	at com.github.weisj.darklaf.ui.filechooser.DarkFilePaneUIBridge$DetailsTableModel.updateColumnInfo(DarkFilePaneUIBridge.java:1128) ~[darklaf-core-2.5.4.jar:2.5.4]
+	at com.github.weisj.darklaf.ui.filechooser.DarkFilePaneUIBridge$DetailsTableModel.<init>(DarkFilePaneUIBridge.java:1115) ~[darklaf-core-2.5.4.jar:2.5.4]
+	at com.github.weisj.darklaf.ui.filechooser.DarkFilePaneUIBridge.getDetailsTableModel(DarkFilePaneUIBridge.java:576) ~[darklaf-core-2.5.4.jar:2.5.4]
+	at com.github.weisj.darklaf.ui.filechooser.DarkFilePaneUIBridge$SortableListModel.<init>(DarkFilePaneUIBridge.java:1079) ~[darklaf-core-2.5.4.jar:2.5.4]
+	at com.github.weisj.darklaf.ui.filechooser.DarkFilePane.createList(DarkFilePane.java:137) ~[darklaf-core-2.5.4.jar:2.5.4]
+	at com.github.weisj.darklaf.ui.filechooser.DarkFileChooserUIBridge.createList(DarkFileChooserUIBridge.java:585) ~[darklaf-core-2.5.4.jar:2.5.4]
+	at com.github.weisj.darklaf.ui.filechooser.DarkFileChooserUIBridge$MetalFileChooserUIAccessor.createList(DarkFileChooserUIBridge.java:750) ~[darklaf-core-2.5.4.jar:2.5.4]
+	at com.github.weisj.darklaf.ui.filechooser.DarkFilePaneUIBridge.setViewType(DarkFilePaneUIBridge.java:376) ~[darklaf-core-2.5.4.jar:2.5.4]
+	at com.github.weisj.darklaf.ui.filechooser.DarkFilePaneUIBridge.propertyChange(DarkFilePaneUIBridge.java:890) ~[darklaf-core-2.5.4.jar:2.5.4]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at java.awt.Component.firePropertyChange(Component.java:8722) ~[?:?]
+	at javax.swing.JComponent.setUI(JComponent.java:733) ~[?:?]
+	at javax.swing.JFileChooser.updateUI(JFileChooser.java:1839) ~[?:?]
+	at javax.swing.JFileChooser.setup(JFileChooser.java:396) ~[?:?]
+	at javax.swing.JFileChooser.<init>(JFileChooser.java:362) ~[?:?]
+	at javax.swing.JFileChooser.<init>(JFileChooser.java:309) ~[?:?]
+	at org.apache.jmeter.gui.util.FileDialoger.<clinit>(FileDialoger.java:42) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.Save.computeFileName(Save.java:201) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.Save.doAction(Save.java:163) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.doActionNow(ActionRouter.java:124) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.AbstractAction.popupShouldSave(AbstractAction.java:76) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.Start.doAction(Start.java:111) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.4.3]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:741) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2022-03-06 11:04:51,272 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-06 11:04:51,273 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-06 11:04:51,274 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-06 11:04:51,274 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-03-06 11:04:51,275 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-03-06 11:04:51,323 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-06 11:04:51,324 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2022-03-06 11:04:51,324 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : 并发测试 
+2022-03-06 11:04:51,324 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 并发测试.
+2022-03-06 11:04:51,325 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-06 11:04:51,325 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-06 11:04:51,328 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-1
+2022-03-06 11:04:51,347 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-2
+2022-03-06 11:04:51,353 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = xmc000.local
+2022-03-06 11:04:51,357 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-06 11:04:51,358 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2022-03-06 11:04:51,362 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-03-06 11:04:51,366 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-3
+2022-03-06 11:04:51,388 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-4
+2022-03-06 11:04:51,408 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-5
+2022-03-06 11:04:51,425 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-5
+2022-03-06 11:04:51,425 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-5
+2022-03-06 11:04:51,425 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-3
+2022-03-06 11:04:51,426 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-1
+2022-03-06 11:04:51,426 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-2
+2022-03-06 11:04:51,426 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-1
+2022-03-06 11:04:51,426 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-2
+2022-03-06 11:04:51,426 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-3
+2022-03-06 11:04:51,426 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-4
+2022-03-06 11:04:51,426 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-4
+2022-03-06 11:04:51,430 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-6
+2022-03-06 11:04:51,438 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-6
+2022-03-06 11:04:51,438 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-6
+2022-03-06 11:04:51,448 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-7
+2022-03-06 11:04:51,456 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-7
+2022-03-06 11:04:51,456 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-7
+2022-03-06 11:04:51,469 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-8
+2022-03-06 11:04:51,475 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-8
+2022-03-06 11:04:51,475 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-8
+2022-03-06 11:04:51,488 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-9
+2022-03-06 11:04:51,493 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-9
+2022-03-06 11:04:51,493 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-9
+2022-03-06 11:04:51,509 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-10
+2022-03-06 11:04:51,514 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-10
+2022-03-06 11:04:51,515 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-10
+2022-03-06 11:04:51,530 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-11
+2022-03-06 11:04:51,536 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-11
+2022-03-06 11:04:51,536 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-11
+2022-03-06 11:04:51,547 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-12
+2022-03-06 11:04:51,554 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-12
+2022-03-06 11:04:51,554 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-12
+2022-03-06 11:04:51,566 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-13
+2022-03-06 11:04:51,572 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-13
+2022-03-06 11:04:51,573 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-13
+2022-03-06 11:04:51,591 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-14
+2022-03-06 11:04:51,598 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-14
+2022-03-06 11:04:51,598 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-14
+2022-03-06 11:04:51,607 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-15
+2022-03-06 11:04:51,614 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-15
+2022-03-06 11:04:51,614 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-15
+2022-03-06 11:04:51,630 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-16
+2022-03-06 11:04:51,648 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-16
+2022-03-06 11:04:51,648 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-16
+2022-03-06 11:04:51,650 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-17
+2022-03-06 11:04:51,656 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-17
+2022-03-06 11:04:51,656 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-17
+2022-03-06 11:04:51,668 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-18
+2022-03-06 11:04:51,674 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-18
+2022-03-06 11:04:51,674 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-18
+2022-03-06 11:04:51,700 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-19
+2022-03-06 11:04:51,706 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-19
+2022-03-06 11:04:51,706 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-19
+2022-03-06 11:04:51,721 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-20
+2022-03-06 11:04:51,726 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-20
+2022-03-06 11:04:51,726 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-20
+2022-03-06 11:04:51,730 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-21
+2022-03-06 11:04:51,735 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-21
+2022-03-06 11:04:51,735 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-21
+2022-03-06 11:04:51,747 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-22
+2022-03-06 11:04:51,751 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-22
+2022-03-06 11:04:51,751 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-22
+2022-03-06 11:04:51,767 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-23
+2022-03-06 11:04:51,771 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-23
+2022-03-06 11:04:51,771 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-23
+2022-03-06 11:04:51,790 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-24
+2022-03-06 11:04:51,794 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-24
+2022-03-06 11:04:51,794 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-24
+2022-03-06 11:04:51,807 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-25
+2022-03-06 11:04:51,810 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-25
+2022-03-06 11:04:51,811 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-25
+2022-03-06 11:04:51,828 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-26
+2022-03-06 11:04:51,834 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-26
+2022-03-06 11:04:51,834 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-26
+2022-03-06 11:04:51,847 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-27
+2022-03-06 11:04:51,852 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-27
+2022-03-06 11:04:51,852 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-27
+2022-03-06 11:04:51,871 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-28
+2022-03-06 11:04:51,875 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-28
+2022-03-06 11:04:51,875 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-28
+2022-03-06 11:04:51,888 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-29
+2022-03-06 11:04:51,892 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-29
+2022-03-06 11:04:51,892 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-29
+2022-03-06 11:04:51,908 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-30
+2022-03-06 11:04:51,913 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-30
+2022-03-06 11:04:51,913 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-30
+2022-03-06 11:04:51,930 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-31
+2022-03-06 11:04:51,934 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-31
+2022-03-06 11:04:51,934 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-31
+2022-03-06 11:04:51,949 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-32
+2022-03-06 11:04:51,954 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-32
+2022-03-06 11:04:51,954 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-32
+2022-03-06 11:04:51,970 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-33
+2022-03-06 11:04:51,975 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-33
+2022-03-06 11:04:51,975 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-33
+2022-03-06 11:04:51,988 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-34
+2022-03-06 11:04:51,992 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-34
+2022-03-06 11:04:51,992 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-34
+2022-03-06 11:04:52,010 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-35
+2022-03-06 11:04:52,014 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-35
+2022-03-06 11:04:52,015 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-35
+2022-03-06 11:04:52,030 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-36
+2022-03-06 11:04:52,034 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-36
+2022-03-06 11:04:52,034 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-36
+2022-03-06 11:04:52,049 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-37
+2022-03-06 11:04:52,053 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-37
+2022-03-06 11:04:52,054 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-37
+2022-03-06 11:04:52,068 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-38
+2022-03-06 11:04:52,072 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-38
+2022-03-06 11:04:52,072 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-38
+2022-03-06 11:04:52,090 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-39
+2022-03-06 11:04:52,094 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-39
+2022-03-06 11:04:52,095 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-39
+2022-03-06 11:04:52,107 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-40
+2022-03-06 11:04:52,111 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-40
+2022-03-06 11:04:52,112 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-40
+2022-03-06 11:04:52,130 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-41
+2022-03-06 11:04:52,133 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-41
+2022-03-06 11:04:52,134 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-41
+2022-03-06 11:04:52,147 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-42
+2022-03-06 11:04:52,171 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-43
+2022-03-06 11:04:52,175 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-43
+2022-03-06 11:04:52,175 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-42
+2022-03-06 11:04:52,175 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-43
+2022-03-06 11:04:52,176 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-42
+2022-03-06 11:04:52,189 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-44
+2022-03-06 11:04:52,192 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-44
+2022-03-06 11:04:52,192 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-44
+2022-03-06 11:04:52,211 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-45
+2022-03-06 11:04:52,214 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-45
+2022-03-06 11:04:52,214 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-45
+2022-03-06 11:04:52,230 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-46
+2022-03-06 11:04:52,234 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-46
+2022-03-06 11:04:52,234 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-46
+2022-03-06 11:04:52,250 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-47
+2022-03-06 11:04:52,253 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-47
+2022-03-06 11:04:52,253 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-47
+2022-03-06 11:04:52,266 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-48
+2022-03-06 11:04:52,269 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-48
+2022-03-06 11:04:52,269 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-48
+2022-03-06 11:04:52,290 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-49
+2022-03-06 11:04:52,293 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-49
+2022-03-06 11:04:52,293 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-49
+2022-03-06 11:04:52,306 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-50
+2022-03-06 11:04:52,308 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-50
+2022-03-06 11:04:52,308 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-50
+2022-03-06 11:04:52,309 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2022-03-06 11:04:52,358 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2022-03-06 11:04:52,358 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-06 11:04:52,360 INFO o.a.j.s.FileServer: Default base='/Users/xmc/github/concurrency'
+2022-03-06 11:04:52,360 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-06 11:06:09,245 ERROR o.a.j.JMeter: Uncaught exception in thread Thread[AWT-EventQueue-0,6,main]
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.jmeter.gui.util.FileDialoger
+	at org.apache.jmeter.gui.action.Save.computeFileName(Save.java:201) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.Save.doAction(Save.java:163) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.doActionNow(ActionRouter.java:124) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.AbstractAction.popupShouldSave(AbstractAction.java:76) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.Start.doAction(Start.java:111) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.4.3]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:741) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2022-03-06 11:07:27,705 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-06 11:07:27,707 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-06 11:07:27,709 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-06 11:07:27,709 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2022-03-06 11:07:27,709 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : 并发测试 
+2022-03-06 11:07:27,709 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 并发测试.
+2022-03-06 11:07:27,710 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-06 11:07:27,710 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-06 11:07:27,710 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-1
+2022-03-06 11:07:27,733 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-2
+2022-03-06 11:07:27,736 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-06 11:07:27,736 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2022-03-06 11:07:27,753 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-3
+2022-03-06 11:07:27,771 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-4
+2022-03-06 11:07:27,793 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-5
+2022-03-06 11:07:27,815 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-6
+2022-03-06 11:07:27,821 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-3
+2022-03-06 11:07:27,821 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-3
+2022-03-06 11:07:27,821 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-2
+2022-03-06 11:07:27,821 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-2
+2022-03-06 11:07:27,824 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-1
+2022-03-06 11:07:27,824 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-1
+2022-03-06 11:07:27,835 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-7
+2022-03-06 11:07:27,842 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-4
+2022-03-06 11:07:27,842 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-4
+2022-03-06 11:07:27,844 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-5
+2022-03-06 11:07:27,845 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-5
+2022-03-06 11:07:27,852 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-8
+2022-03-06 11:07:27,866 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-6
+2022-03-06 11:07:27,866 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-6
+2022-03-06 11:07:27,875 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-9
+2022-03-06 11:07:27,878 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-7
+2022-03-06 11:07:27,878 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-7
+2022-03-06 11:07:27,890 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-8
+2022-03-06 11:07:27,891 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-8
+2022-03-06 11:07:27,892 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-10
+2022-03-06 11:07:27,911 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-9
+2022-03-06 11:07:27,912 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-9
+2022-03-06 11:07:27,914 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-11
+2022-03-06 11:07:27,928 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-10
+2022-03-06 11:07:27,928 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-10
+2022-03-06 11:07:27,936 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-12
+2022-03-06 11:07:27,947 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-11
+2022-03-06 11:07:27,947 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-11
+2022-03-06 11:07:27,951 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-13
+2022-03-06 11:07:27,966 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-12
+2022-03-06 11:07:27,967 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-12
+2022-03-06 11:07:27,982 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-14
+2022-03-06 11:07:27,983 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-13
+2022-03-06 11:07:27,983 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-13
+2022-03-06 11:07:27,998 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-15
+2022-03-06 11:07:28,014 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-14
+2022-03-06 11:07:28,014 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-14
+2022-03-06 11:07:28,016 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-16
+2022-03-06 11:07:28,029 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-15
+2022-03-06 11:07:28,029 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-15
+2022-03-06 11:07:28,034 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-17
+2022-03-06 11:07:28,046 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-16
+2022-03-06 11:07:28,046 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-16
+2022-03-06 11:07:28,055 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-18
+2022-03-06 11:07:28,063 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-17
+2022-03-06 11:07:28,063 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-17
+2022-03-06 11:07:28,077 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-19
+2022-03-06 11:07:28,084 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-18
+2022-03-06 11:07:28,084 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-18
+2022-03-06 11:07:28,095 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-20
+2022-03-06 11:07:28,105 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-19
+2022-03-06 11:07:28,105 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-19
+2022-03-06 11:07:28,110 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-21
+2022-03-06 11:07:28,124 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-20
+2022-03-06 11:07:28,124 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-20
+2022-03-06 11:07:28,132 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-22
+2022-03-06 11:07:28,139 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-21
+2022-03-06 11:07:28,139 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-21
+2022-03-06 11:07:28,153 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-23
+2022-03-06 11:07:28,158 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-22
+2022-03-06 11:07:28,158 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-22
+2022-03-06 11:07:28,175 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-24
+2022-03-06 11:07:28,175 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-23
+2022-03-06 11:07:28,176 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-23
+2022-03-06 11:07:28,194 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-25
+2022-03-06 11:07:28,198 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-24
+2022-03-06 11:07:28,198 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-24
+2022-03-06 11:07:28,214 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-26
+2022-03-06 11:07:28,219 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-25
+2022-03-06 11:07:28,219 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-25
+2022-03-06 11:07:28,237 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-27
+2022-03-06 11:07:28,239 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-26
+2022-03-06 11:07:28,239 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-26
+2022-03-06 11:07:28,256 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-28
+2022-03-06 11:07:28,264 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-27
+2022-03-06 11:07:28,264 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-27
+2022-03-06 11:07:28,275 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-29
+2022-03-06 11:07:28,279 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-28
+2022-03-06 11:07:28,279 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-28
+2022-03-06 11:07:28,293 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-30
+2022-03-06 11:07:28,299 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-29
+2022-03-06 11:07:28,299 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-29
+2022-03-06 11:07:28,313 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-30
+2022-03-06 11:07:28,313 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-30
+2022-03-06 11:07:28,314 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-31
+2022-03-06 11:07:28,333 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-31
+2022-03-06 11:07:28,333 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-31
+2022-03-06 11:07:28,334 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-32
+2022-03-06 11:07:28,355 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-33
+2022-03-06 11:07:28,369 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-32
+2022-03-06 11:07:28,369 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-32
+2022-03-06 11:07:28,375 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-34
+2022-03-06 11:07:28,392 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-33
+2022-03-06 11:07:28,392 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-33
+2022-03-06 11:07:28,393 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-35
+2022-03-06 11:07:28,399 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-34
+2022-03-06 11:07:28,399 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-34
+2022-03-06 11:07:28,414 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-36
+2022-03-06 11:07:28,416 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-35
+2022-03-06 11:07:28,416 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-35
+2022-03-06 11:07:28,433 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-37
+2022-03-06 11:07:28,437 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-36
+2022-03-06 11:07:28,438 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-36
+2022-03-06 11:07:28,454 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-38
+2022-03-06 11:07:28,455 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-37
+2022-03-06 11:07:28,455 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-37
+2022-03-06 11:07:28,473 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-39
+2022-03-06 11:07:28,475 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-38
+2022-03-06 11:07:28,475 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-38
+2022-03-06 11:07:28,492 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-39
+2022-03-06 11:07:28,492 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-39
+2022-03-06 11:07:28,493 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-40
+2022-03-06 11:07:28,514 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-41
+2022-03-06 11:07:28,516 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-40
+2022-03-06 11:07:28,517 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-40
+2022-03-06 11:07:28,531 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-42
+2022-03-06 11:07:28,538 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-41
+2022-03-06 11:07:28,538 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-41
+2022-03-06 11:07:28,549 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-42
+2022-03-06 11:07:28,549 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-42
+2022-03-06 11:07:28,553 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-43
+2022-03-06 11:07:28,566 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-43
+2022-03-06 11:07:28,566 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-43
+2022-03-06 11:07:28,570 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-44
+2022-03-06 11:07:28,584 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-44
+2022-03-06 11:07:28,584 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-44
+2022-03-06 11:07:28,594 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-45
+2022-03-06 11:07:28,612 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-45
+2022-03-06 11:07:28,612 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-45
+2022-03-06 11:07:28,614 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-46
+2022-03-06 11:07:28,632 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-46
+2022-03-06 11:07:28,632 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-46
+2022-03-06 11:07:28,632 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-47
+2022-03-06 11:07:28,650 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-47
+2022-03-06 11:07:28,651 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-47
+2022-03-06 11:07:28,652 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-48
+2022-03-06 11:07:28,667 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-48
+2022-03-06 11:07:28,667 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-48
+2022-03-06 11:07:28,672 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-49
+2022-03-06 11:07:28,688 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-49
+2022-03-06 11:07:28,688 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-49
+2022-03-06 11:07:28,694 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-50
+2022-03-06 11:07:28,709 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-50
+2022-03-06 11:07:28,709 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-50
+2022-03-06 11:07:28,710 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2022-03-06 11:07:28,777 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2022-03-06 11:07:28,777 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-06 11:07:28,777 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-06 11:08:12,669 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-06 11:08:12,670 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-06 11:08:12,671 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-06 11:08:12,671 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2022-03-06 11:08:12,671 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : 并发测试 
+2022-03-06 11:08:12,671 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 并发测试.
+2022-03-06 11:08:12,671 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-06 11:08:12,671 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-06 11:08:12,672 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-1
+2022-03-06 11:08:12,693 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-2
+2022-03-06 11:08:12,702 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-06 11:08:12,702 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2022-03-06 11:08:12,711 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-1
+2022-03-06 11:08:12,711 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-1
+2022-03-06 11:08:12,712 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-3
+2022-03-06 11:08:12,718 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-2
+2022-03-06 11:08:12,718 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-2
+2022-03-06 11:08:12,730 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-3
+2022-03-06 11:08:12,730 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-3
+2022-03-06 11:08:12,735 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-4
+2022-03-06 11:08:12,752 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-4
+2022-03-06 11:08:12,752 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-4
+2022-03-06 11:08:12,753 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-5
+2022-03-06 11:08:12,769 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-5
+2022-03-06 11:08:12,769 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-5
+2022-03-06 11:08:12,774 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-6
+2022-03-06 11:08:12,792 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-6
+2022-03-06 11:08:12,792 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-6
+2022-03-06 11:08:12,796 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-7
+2022-03-06 11:08:12,816 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-7
+2022-03-06 11:08:12,816 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-8
+2022-03-06 11:08:12,816 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-7
+2022-03-06 11:08:12,835 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-9
+2022-03-06 11:08:12,839 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-8
+2022-03-06 11:08:12,840 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-8
+2022-03-06 11:08:12,852 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-10
+2022-03-06 11:08:12,858 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-9
+2022-03-06 11:08:12,859 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-9
+2022-03-06 11:08:12,877 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-11
+2022-03-06 11:08:12,877 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-10
+2022-03-06 11:08:12,877 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-10
+2022-03-06 11:08:12,895 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-12
+2022-03-06 11:08:12,900 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-11
+2022-03-06 11:08:12,901 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-11
+2022-03-06 11:08:12,914 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-13
+2022-03-06 11:08:12,917 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-12
+2022-03-06 11:08:12,917 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-12
+2022-03-06 11:08:12,932 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-13
+2022-03-06 11:08:12,932 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-13
+2022-03-06 11:08:12,935 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-14
+2022-03-06 11:08:12,952 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-14
+2022-03-06 11:08:12,952 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-14
+2022-03-06 11:08:12,954 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-15
+2022-03-06 11:08:12,972 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-15
+2022-03-06 11:08:12,972 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-15
+2022-03-06 11:08:12,977 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-16
+2022-03-06 11:08:12,995 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-17
+2022-03-06 11:08:12,997 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-16
+2022-03-06 11:08:12,997 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-16
+2022-03-06 11:08:13,014 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-18
+2022-03-06 11:08:13,020 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-17
+2022-03-06 11:08:13,020 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-17
+2022-03-06 11:08:13,034 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-18
+2022-03-06 11:08:13,034 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-18
+2022-03-06 11:08:13,035 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-19
+2022-03-06 11:08:13,053 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-20
+2022-03-06 11:08:13,072 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-19
+2022-03-06 11:08:13,073 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-19
+2022-03-06 11:08:13,077 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-21
+2022-03-06 11:08:13,086 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-20
+2022-03-06 11:08:13,087 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-20
+2022-03-06 11:08:13,092 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-22
+2022-03-06 11:08:13,101 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-21
+2022-03-06 11:08:13,101 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-21
+2022-03-06 11:08:13,113 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-23
+2022-03-06 11:08:13,115 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-22
+2022-03-06 11:08:13,115 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-22
+2022-03-06 11:08:13,129 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-23
+2022-03-06 11:08:13,129 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-23
+2022-03-06 11:08:13,135 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-24
+2022-03-06 11:08:13,153 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-24
+2022-03-06 11:08:13,154 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-24
+2022-03-06 11:08:13,154 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-25
+2022-03-06 11:08:13,170 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-25
+2022-03-06 11:08:13,170 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-25
+2022-03-06 11:08:13,172 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-26
+2022-03-06 11:08:13,191 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-26
+2022-03-06 11:08:13,191 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-26
+2022-03-06 11:08:13,195 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-27
+2022-03-06 11:08:13,211 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-27
+2022-03-06 11:08:13,211 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-27
+2022-03-06 11:08:13,216 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-28
+2022-03-06 11:08:13,230 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-28
+2022-03-06 11:08:13,230 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-28
+2022-03-06 11:08:13,235 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-29
+2022-03-06 11:08:13,254 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-30
+2022-03-06 11:08:13,257 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-29
+2022-03-06 11:08:13,258 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-29
+2022-03-06 11:08:13,271 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-30
+2022-03-06 11:08:13,271 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-30
+2022-03-06 11:08:13,274 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-31
+2022-03-06 11:08:13,290 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-31
+2022-03-06 11:08:13,290 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-31
+2022-03-06 11:08:13,295 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-32
+2022-03-06 11:08:13,312 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-32
+2022-03-06 11:08:13,312 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-32
+2022-03-06 11:08:13,314 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-33
+2022-03-06 11:08:13,330 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-33
+2022-03-06 11:08:13,330 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-33
+2022-03-06 11:08:13,335 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-34
+2022-03-06 11:08:13,350 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-34
+2022-03-06 11:08:13,350 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-34
+2022-03-06 11:08:13,354 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-35
+2022-03-06 11:08:13,372 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-35
+2022-03-06 11:08:13,372 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-35
+2022-03-06 11:08:13,377 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-36
+2022-03-06 11:08:13,391 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-36
+2022-03-06 11:08:13,391 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-36
+2022-03-06 11:08:13,395 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-37
+2022-03-06 11:08:13,409 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-37
+2022-03-06 11:08:13,410 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-37
+2022-03-06 11:08:13,411 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-38
+2022-03-06 11:08:13,428 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-38
+2022-03-06 11:08:13,429 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-38
+2022-03-06 11:08:13,435 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-39
+2022-03-06 11:08:13,446 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-39
+2022-03-06 11:08:13,446 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-39
+2022-03-06 11:08:13,454 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-40
+2022-03-06 11:08:13,470 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-40
+2022-03-06 11:08:13,470 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-40
+2022-03-06 11:08:13,477 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-41
+2022-03-06 11:08:13,493 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-41
+2022-03-06 11:08:13,493 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-41
+2022-03-06 11:08:13,494 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-42
+2022-03-06 11:08:13,508 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-42
+2022-03-06 11:08:13,508 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-42
+2022-03-06 11:08:13,521 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-43
+2022-03-06 11:08:13,537 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-44
+2022-03-06 11:08:13,542 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-43
+2022-03-06 11:08:13,542 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-43
+2022-03-06 11:08:13,553 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-45
+2022-03-06 11:08:13,574 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-44
+2022-03-06 11:08:13,574 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-44
+2022-03-06 11:08:13,577 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-46
+2022-03-06 11:08:13,585 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-45
+2022-03-06 11:08:13,585 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-45
+2022-03-06 11:08:13,596 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-46
+2022-03-06 11:08:13,596 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-47
+2022-03-06 11:08:13,597 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-46
+2022-03-06 11:08:13,611 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-47
+2022-03-06 11:08:13,611 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-47
+2022-03-06 11:08:13,613 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-48
+2022-03-06 11:08:13,627 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-48
+2022-03-06 11:08:13,627 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-48
+2022-03-06 11:08:13,636 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-49
+2022-03-06 11:08:13,652 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-50
+2022-03-06 11:08:13,654 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-49
+2022-03-06 11:08:13,654 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-49
+2022-03-06 11:08:13,664 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-50
+2022-03-06 11:08:13,664 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-50
+2022-03-06 11:08:13,665 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2022-03-06 11:08:13,719 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2022-03-06 11:08:13,720 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-06 11:08:13,720 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-06 11:08:36,607 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-06 11:08:36,608 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-06 11:08:36,608 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-06 11:08:36,608 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2022-03-06 11:08:36,608 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : 并发测试 
+2022-03-06 11:08:36,608 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 并发测试.
+2022-03-06 11:08:36,609 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-06 11:08:36,609 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-06 11:08:36,609 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-1
+2022-03-06 11:08:36,618 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-06 11:08:36,618 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2022-03-06 11:08:36,622 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-1
+2022-03-06 11:08:36,622 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-1
+2022-03-06 11:08:36,630 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-2
+2022-03-06 11:08:36,652 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-2
+2022-03-06 11:08:36,652 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-2
+2022-03-06 11:08:36,654 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-3
+2022-03-06 11:08:36,669 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-3
+2022-03-06 11:08:36,669 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-3
+2022-03-06 11:08:36,674 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-4
+2022-03-06 11:08:36,687 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-4
+2022-03-06 11:08:36,687 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-4
+2022-03-06 11:08:36,693 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-5
+2022-03-06 11:08:36,703 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-5
+2022-03-06 11:08:36,703 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-5
+2022-03-06 11:08:36,713 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-6
+2022-03-06 11:08:36,726 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-6
+2022-03-06 11:08:36,726 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-6
+2022-03-06 11:08:36,732 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-7
+2022-03-06 11:08:36,748 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-7
+2022-03-06 11:08:36,748 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-7
+2022-03-06 11:08:36,753 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-8
+2022-03-06 11:08:36,766 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-8
+2022-03-06 11:08:36,766 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-8
+2022-03-06 11:08:36,774 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-9
+2022-03-06 11:08:36,788 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-9
+2022-03-06 11:08:36,788 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-9
+2022-03-06 11:08:36,793 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-10
+2022-03-06 11:08:36,807 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-10
+2022-03-06 11:08:36,807 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-10
+2022-03-06 11:08:36,814 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-11
+2022-03-06 11:08:36,825 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-11
+2022-03-06 11:08:36,825 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-11
+2022-03-06 11:08:36,832 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-12
+2022-03-06 11:08:36,847 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-12
+2022-03-06 11:08:36,847 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-12
+2022-03-06 11:08:36,854 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-13
+2022-03-06 11:08:36,867 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-13
+2022-03-06 11:08:36,867 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-13
+2022-03-06 11:08:36,873 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-14
+2022-03-06 11:08:36,884 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-14
+2022-03-06 11:08:36,884 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-14
+2022-03-06 11:08:36,891 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-15
+2022-03-06 11:08:36,904 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-15
+2022-03-06 11:08:36,905 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-15
+2022-03-06 11:08:36,909 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-16
+2022-03-06 11:08:36,922 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-16
+2022-03-06 11:08:36,922 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-16
+2022-03-06 11:08:36,932 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-17
+2022-03-06 11:08:36,943 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-17
+2022-03-06 11:08:36,944 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-17
+2022-03-06 11:08:36,952 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-18
+2022-03-06 11:08:36,965 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-18
+2022-03-06 11:08:36,965 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-18
+2022-03-06 11:08:36,974 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-19
+2022-03-06 11:08:36,986 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-19
+2022-03-06 11:08:36,987 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-19
+2022-03-06 11:08:36,991 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-20
+2022-03-06 11:08:37,007 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-20
+2022-03-06 11:08:37,007 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-20
+2022-03-06 11:08:37,012 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-21
+2022-03-06 11:08:37,026 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-21
+2022-03-06 11:08:37,026 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-21
+2022-03-06 11:08:37,033 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-22
+2022-03-06 11:08:37,048 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-22
+2022-03-06 11:08:37,048 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-22
+2022-03-06 11:08:37,051 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-23
+2022-03-06 11:08:37,065 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-23
+2022-03-06 11:08:37,065 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-23
+2022-03-06 11:08:37,074 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-24
+2022-03-06 11:08:37,089 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-24
+2022-03-06 11:08:37,090 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-24
+2022-03-06 11:08:37,095 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-25
+2022-03-06 11:08:37,109 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-25
+2022-03-06 11:08:37,109 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-25
+2022-03-06 11:08:37,113 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-26
+2022-03-06 11:08:37,126 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-26
+2022-03-06 11:08:37,127 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-26
+2022-03-06 11:08:37,134 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-27
+2022-03-06 11:08:37,149 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-28
+2022-03-06 11:08:37,163 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-27
+2022-03-06 11:08:37,163 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-27
+2022-03-06 11:08:37,170 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-29
+2022-03-06 11:08:37,172 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-28
+2022-03-06 11:08:37,172 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-28
+2022-03-06 11:08:37,186 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-29
+2022-03-06 11:08:37,186 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-29
+2022-03-06 11:08:37,195 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-30
+2022-03-06 11:08:37,212 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-30
+2022-03-06 11:08:37,212 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-30
+2022-03-06 11:08:37,213 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-31
+2022-03-06 11:08:37,232 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-32
+2022-03-06 11:08:37,252 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-33
+2022-03-06 11:08:37,270 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-34
+2022-03-06 11:08:37,271 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-31
+2022-03-06 11:08:37,271 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-31
+2022-03-06 11:08:37,281 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-33
+2022-03-06 11:08:37,281 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-32
+2022-03-06 11:08:37,281 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-33
+2022-03-06 11:08:37,281 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-32
+2022-03-06 11:08:37,283 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-34
+2022-03-06 11:08:37,283 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-34
+2022-03-06 11:08:37,295 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-35
+2022-03-06 11:08:37,307 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-35
+2022-03-06 11:08:37,307 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-35
+2022-03-06 11:08:37,313 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-36
+2022-03-06 11:08:37,326 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-36
+2022-03-06 11:08:37,326 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-36
+2022-03-06 11:08:37,332 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-37
+2022-03-06 11:08:37,346 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-37
+2022-03-06 11:08:37,346 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-37
+2022-03-06 11:08:37,349 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-38
+2022-03-06 11:08:37,362 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-38
+2022-03-06 11:08:37,362 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-38
+2022-03-06 11:08:37,370 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-39
+2022-03-06 11:08:37,387 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-39
+2022-03-06 11:08:37,387 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-39
+2022-03-06 11:08:37,394 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-40
+2022-03-06 11:08:37,409 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-40
+2022-03-06 11:08:37,409 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-40
+2022-03-06 11:08:37,411 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-41
+2022-03-06 11:08:37,427 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-41
+2022-03-06 11:08:37,427 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-41
+2022-03-06 11:08:37,433 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-42
+2022-03-06 11:08:37,445 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-42
+2022-03-06 11:08:37,445 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-42
+2022-03-06 11:08:37,449 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-43
+2022-03-06 11:08:37,461 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-43
+2022-03-06 11:08:37,461 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-43
+2022-03-06 11:08:37,473 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-44
+2022-03-06 11:08:37,488 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-44
+2022-03-06 11:08:37,488 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-44
+2022-03-06 11:08:37,494 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-45
+2022-03-06 11:08:37,510 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-45
+2022-03-06 11:08:37,510 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-45
+2022-03-06 11:08:37,511 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-46
+2022-03-06 11:08:37,523 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-46
+2022-03-06 11:08:37,523 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-46
+2022-03-06 11:08:37,532 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-47
+2022-03-06 11:08:37,547 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-47
+2022-03-06 11:08:37,547 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-47
+2022-03-06 11:08:37,551 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-48
+2022-03-06 11:08:37,564 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-48
+2022-03-06 11:08:37,565 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-48
+2022-03-06 11:08:37,570 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-49
+2022-03-06 11:08:37,583 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-49
+2022-03-06 11:08:37,583 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-49
+2022-03-06 11:08:37,590 INFO o.a.j.t.JMeterThread: Thread started: 并发测试 1-50
+2022-03-06 11:08:37,603 INFO o.a.j.t.JMeterThread: Thread is done: 并发测试 1-50
+2022-03-06 11:08:37,603 INFO o.a.j.t.JMeterThread: Thread finished: 并发测试 1-50
+2022-03-06 11:08:37,604 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2022-03-06 11:08:37,645 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2022-03-06 11:08:37,646 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-06 11:08:37,646 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
