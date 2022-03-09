@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import top.xiongmingcai.cache.RedisClient;
 
 import javax.annotation.Resource;
+import java.util.HashMap;
 
 @Controller
 @RequestMapping("/cache")
@@ -36,6 +37,7 @@ public class CacheController {
     try {
       String result = redisClient.get(k);
       log.info("result = {}", result);
+      new HashMap<>();
       return result;
     } catch (Exception e) {
       e.printStackTrace();
