@@ -1,7 +1,6 @@
-package com.mmall.concurrency.example.singleton;
+package top.xiongmingcai.singleton;
 
-import com.mmall.concurrency.annoations.Recommend;
-import com.mmall.concurrency.annoations.ThreadSafe;
+import top.xiongmingcai.annoations.*;
 
 /**
  * 枚举模式：最安全

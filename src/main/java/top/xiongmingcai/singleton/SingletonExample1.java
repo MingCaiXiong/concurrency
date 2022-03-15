@@ -1,6 +1,7 @@
-package com.mmall.concurrency.example.singleton;
+package top.xiongmingcai.singleton;
 
-import com.mmall.concurrency.annoations.NotThreadSafe;
+
+import top.xiongmingcai.annoations.NotThreadSafe;
 
 /**
  * 懒汉模式
