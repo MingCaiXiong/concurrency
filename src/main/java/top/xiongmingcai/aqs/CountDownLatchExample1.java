@@ -13,7 +13,7 @@ public class CountDownLatchExample1 {
     ExecutorService  exec = Executors.newCachedThreadPool();
     final CountDownLatch countDownLatch = new CountDownLatch(threadCount);
 
-    for (int i = 0; i < 199; i++) {
+    for (int i = 0; i < threadCount; i++) {
       int finalI = i;
       exec.execute(
           () -> {
